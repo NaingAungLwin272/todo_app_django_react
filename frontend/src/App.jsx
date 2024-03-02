@@ -67,10 +67,10 @@ function App() {
     }
   };
 
-  // const filterTodo = (cat_value) => {
-  //   // setTodos(todos.filter(todo => todo.status == cat_value))
-  //   setTodos(todos.filter((todo) => todo.status == cat_value));
-  // };
+  const filterTodo = (cat_value) => {
+    // setTodos(todos.filter(todo => todo.status == cat_value))
+    setTodos(todos.filter((todo) => todo.status == cat_value));
+  };
 
   return (
     <div className="todo-container">
